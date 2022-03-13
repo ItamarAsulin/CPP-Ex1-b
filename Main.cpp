@@ -14,13 +14,13 @@ int main(){
     char firstSym;
     char secondSym;
     cout << "Please enter desired num of rows. Must be an odd positive integer: \n";
-    row << cin;
+    cin >> row;
     cout << "Please enter desired num of columns. Must be an odd positive integer: \n";
-    col << cin;
+    cin >> col;
     cout << "Please enter first symbol: \n";
-    firstSym << cin;
+    cin >> firstSym;
     cout << "Please enter second symbol: \n";
-    secondSym << cin;
+    cin >> secondSym;
     string designedMat = mat(col, row, firstSym, secondSym);
     cout << designedMat;
     return 0;
